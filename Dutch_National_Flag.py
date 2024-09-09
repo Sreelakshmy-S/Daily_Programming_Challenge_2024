@@ -22,7 +22,7 @@ def sort(A,n):                                      # Sorting using dutch nation
             high-=1
     return A
 
-A = input()
+A = input()                                        # A is the input array given to the function
 if A.strip()=="[]":                                # Accounts for empty array (corner case)
     array = []
 else:                                              # If array not empty perform sorting
